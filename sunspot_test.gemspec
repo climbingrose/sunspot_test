@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files = s.files.grep(/^spec/)
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "sunspot_rails", "=> 1.2.1"
+  s.add_runtime_dependency "sunspot_rails"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
