@@ -13,8 +13,8 @@ module SunspotTest
     end
 
     def setup_solr
-      unstub
-      start_sunspot_server
+      # unstub
+      # start_sunspot_server
     end
 
     def server
